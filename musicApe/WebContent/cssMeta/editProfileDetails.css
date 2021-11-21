@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato',sans-serif;
+	overflow: hidden;
+	position: relative;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,4,223,1) 100%);
+}
+fieldset{
+	
+	margin: 2em 0;
+	padding: 1em 2em;
+	border: solid 1px #ccc;
+	border-radius: 6px;
+	min-width: 200px;
+	
+	
+}
+legend{
+	font-size: 1.25em;
+	padding: 0 .25em;
+	color: #8B008B;
+}
+label {
+	
+	display: block;
+	margin-top: 1em;
+}
+label:first-of-type {
+	margin: 0;
+}
+input {
+	
+	padding: .5em;
+	border: solid 1px #999;
+}
+input [type="text"], input [type="password"] {
+	
+	color: #00d4ff;
+	width: 15em;
+}
+input [type="submit"] {
+	
+	padding: .5em 1em;
+	border-radius: 6px;
+	background-color: #333;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: .8em;
+	
+}
+@media screen and (min-width:430px){
+	legend {
+		font-size: 1.75em;
+	}
+	fieldset {
+		width: 40%;
+		min-width: 320px;
+		margin: auto;
+	}
+	.checks label{
+		display: inline-block;
+		padding-top: .5em;
+		margin-top: 0;
+		margin-right: .5em;
+	
+	}
+}
+	
+	/* LOGO I NAV MENU */
+	
+.navbar{
+	
+	padding: 25px 20px;
+	width: 100%;
+	height: 30PX;
+	background: #000
+	
+}
+ul{
+	margin: 0;
+	list-style: none;
+	display: inline;
+	
+}
+li{
+	font-size: 24px;
+	font-weight: 500;
+	float: left;
+	color: #00d4ff;
+	margin-right: 50px;
+	cursor: pointer;
+}
+.brand{
+	margin-right: 1300px;
+	margin-left: 110px;
+	font-size: 25px;
+	color: #00d4ff;
+
+}
+a{
+	text-decoration: none;
+	color: #00d4ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

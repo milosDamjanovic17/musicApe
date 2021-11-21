@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>MusicApe | Failed to register</title>
+		
+			<!-- FONTAWESOME CDN -->
+		<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+		
+			<!-- STYLESHEET -->
+		<link rel = "stylesheet" 
+			href = "../cssMeta/registrationStyle.css"/>	
+
+	</head>
+	<body>
+
+		<nav class = "navbar">
+			<ul>
+				<li class = "brand"><a href = "../index.html"><i class = "fab fa-spotify"></i> MusicApe</a></li>
+				<li>Music Around The World!</li>
+			</ul>
+		</nav>
+			
+			
+
+	
+		<form action="../RegistrationController" method = "get">
+			<fieldset>
+			<legend>INVALID PARAMETERS</legend>
+					<!-- FULL NAME -->
+				<label for="email" style="color: #00d4ff ; font-family: 'Lato',sans-serif">What's your email?</label>
+				<input type="text" name="email"		
+				id="email">
+				
+				<label for="password" style="color: #00d4ff ; font-family: 'Lato',sans-serif">Create a password: (8 characters, at least 2 digits)</label>
+				<input type="password" name="password"		
+				id="password">
+				
+				<label for="repeatedPassword" style="color: #00d4ff ; font-family: 'Lato',sans-serif">Confirm password:</label>
+				<input type="password" name="repeatedPassword"		
+				id="repeatedPassword">
+				
+				<label for="username" style="color: #00d4ff ; font-family: 'Lato',sans-serif">What should we call you? Enter username</label>
+				<input type="text" name="username"		
+				id="username">
+				
+				<br>
+				<br>
+				
+				<input type="submit" id="submit"
+				value="SIGN UP">
+			</fieldset>
+		
+		</form>
+	
+	
+	</body>
+</html>

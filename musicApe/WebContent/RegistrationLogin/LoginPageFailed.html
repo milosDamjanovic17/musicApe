@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>MusicApe | Login</title>
+				
+			<!-- FONTAWESOME CDN -->
+		<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+		
+			<!-- STYLESHEET -->
+		<link rel = "stylesheet"
+			  href = "../cssMeta/loginStyle2.css"/>
+		
+	</head>
+	<body>
+
+		<nav class = "navbar">
+			<ul>
+				<li class = "brand"><a href = "../index.html"><i class = "fab fa-spotify"></i> MusicApe</a></li>
+				<li>Music Around The World!</li>
+			</ul>
+		</nav>
+		
+		
+		<form action = "../LoginController" method="get">
+			<fieldset>
+			<legend>ERROR LOGIN FAILED</legend>
+			
+				<label for="username" style="color: #00d4ff ; font-family: 'Lato',sans-serif">Username:</label>
+				<input type="text" name="username"		
+				id="username">
+				
+				<label for="password" style="color: #00d4ff ; font-family: 'Lato',sans-serif">Password:</label>
+				<input type="password" name="password"		
+				id="password">
+				
+				<br>
+				<br>
+				
+				<input type="submit" id="submit"
+				value="LOG IN">
+			</fieldset>
+		
+		</form>
+
+	
+	</body>
+</html>
