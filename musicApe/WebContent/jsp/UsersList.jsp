@@ -23,7 +23,7 @@
 		
 		<nav class = "navbar">
 			<ul>
-				<li class = "brand"><a href = "AdminLogin.jsp"><i class = "fab fa-spotify"></i> MusicApe</a></li>
+				<li class = "brand"><a href = "jsp/AdminLogin.jsp"><i class = "fab fa-spotify"></i> MusicApe</a></li>
 				<li>Music Around The World!</li>
 			</ul>
 		</nav>
