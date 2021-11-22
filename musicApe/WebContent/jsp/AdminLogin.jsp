@@ -9,16 +9,29 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>MusicApe | ADMIN</title>
+		
+			<!-- FONTAWESOME CDN -->
+		<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+		
+			<!-- STYLESHEET -->
+		<link rel = "stylesheet" 
+			href = "../cssMeta/adminHomePage.css"/>
+			
 	</head>
 	
 	<body>
-	
-	<jsp:useBean id="userKey" scope = "session" class = "model.User"></jsp:useBean>
-	<h1>WELCOME ${userKey.username}</h1>
+		<jsp:useBean id="userKey" scope = "session" class = "model.User"></jsp:useBean>
+		<nav class = "navbar">
+			<ul>
+				<li class = "brand"><a href = "../index.html"><i class = "fab fa-spotify"></i> MusicApe</a></li>
+				<li>Music Around The World!</li>
+				<li class = "username">WELCOME ${userKey.username}</li>
+			</ul>
+		</nav>
 
 	
 	<form action = "../AdminController" method="get">
-		USERS LIST:
+		<p style="color: #00d4ff;">USERS LIST:</p>
 		<input type="submit" value = "SEARCH">
 	
 	</form>
