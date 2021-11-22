@@ -18,7 +18,7 @@
 			
 	</head>
 		
-	<body background = "#3366cc">
+	<body>
 		<jsp:useBean id="usersListKey" scope = "session" class = "java.util.ArrayList"></jsp:useBean>
 		
 		<nav class = "navbar">
